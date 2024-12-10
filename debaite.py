@@ -237,7 +237,7 @@ the accuracy of specific numbers and claims should be independently verified."""
     
     # Initialize session state if needed
     if 'debate_bot' not in st.session_state:
-        api_key = "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"
+        api_key = ""
         st.session_state.debate_bot = DebateBot(api_key)
         st.session_state.debate_started = False
         st.session_state.current_round = 1
